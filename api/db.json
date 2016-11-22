@@ -1,4 +1,7 @@
 {
-  "efforts": [],
+  "efforts": [{
+    "id": "1",
+    "name": "Practice React"
+  }],
   "locations": []
 }
