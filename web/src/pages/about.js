@@ -1,4 +1,5 @@
 const React = require('react')
+const { Link } = require('react-router')
 
 const About = React.createClass({
   render() {
@@ -6,6 +7,8 @@ const About = React.createClass({
       <div>
         <h1>About Relief Tracker</h1>
         <p>Version 1033</p>
+        <Link to="/">Home</Link>
+
       </div>
     );
   }
