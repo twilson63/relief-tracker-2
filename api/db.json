@@ -1,7 +1,40 @@
 {
-  "efforts": [{
-    "id": "1",
-    "name": "Practice React"
-  }],
-  "locations": []
+  "efforts": [
+    {
+      "name": "Foo",
+      "id": 1
+    },
+    {
+      "name": "Bar",
+      "id": 2
+    },
+    {
+      "name": "Baz",
+      "id": 3
+    },
+    {
+      "name": "Foobar",
+      "location_id": -1,
+      "id": 4
+    },
+    {
+      "name": "Success Effort",
+      "location_id": "2",
+      "id": 5
+    }
+  ],
+  "locations": [
+    {
+      "id": 1,
+      "name": "Charleston"
+    },
+    {
+      "id": 2,
+      "name": "Columbia"
+    },
+    {
+      "id": 3,
+      "name": "Clemson"
+    }
+  ]
 }
